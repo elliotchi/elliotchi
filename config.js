@@ -19,7 +19,7 @@ config = {
           connection: {
             host: 'localhost',
             user: 'postgres',
-            password: '',
+            password: 'poop',
             database: 'blog',
             port: '5432'
           },
