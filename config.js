@@ -17,10 +17,10 @@ config = {
         database: {  
           client: 'postgres',
           connection: {
-            host: process.env.POSTGRES_HOST,
-            user: process.env.POSTGRES_USER,
-            password: process.env.POSTGRES_PASSWORD,
-            database: process.env.POSTGRES_DATABASE,
+            host: 'localhost',
+            user: 'postgres',
+            password: '',
+            database: 'blog',
             port: '5432'
           },
         debug: false
@@ -28,7 +28,7 @@ config = {
 
         server: {  
           host: '0.0.0.0',
-          port: process.env.PORT
+          port: 80
         }
     },
 
