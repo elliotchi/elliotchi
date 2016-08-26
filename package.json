@@ -50,6 +50,7 @@
     "delayed-stream": "1.0.0",
     "depd": "1.1.0",
     "dom-serializer": "0.1.0",
+    "dotenv": "^2.0.0",
     "downsize": "0.0.8",
     "ecc-jsbn": "0.1.1",
     "express": "4.14.0",
