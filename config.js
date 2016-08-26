@@ -11,7 +11,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'https://www.elliotchi.com/',
+        url: 'http://www.elliotchi.com/',
         fileStorage: false,
         mail: {},
         database: {  
